@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WolvesSupreme</title>
+    <!--- ICONOS --->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!--- SLIDER --->
+    <!--- STILOS --->
+    <link rel="stylesheet" href="css/Contacto.css">
+    <!---- ICO ----->
+    <link rel="shortcut icon" type="image/x-icon" href="img/F4vicon.ico">
+    <!---- ANIMATE.CSS ---->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+</head>
+<body>
+    <header class="main-header"><a class="logo" href="#"><img class="logo__img" src="img/xxxx.png" alt="WolvesSupreme" width="50"></a>
+        <h1 class="titulo-empresa">WolvesSupreme</h1><span class="fa fa-bars" id="btn-menu"></span>
+        <nav class="menu">
+          <ul>
+            <li class="menu__item"><a class="menu__link select" href="index.html">inicio</a></li>
+            <li class="menu__item"><a class="menu__link" href="Habilidades.html">Habilidades</a></li>
+            <li class="menu__item"><a class="menu__link" href="Lanzamientos.html">Lanzamientos</a></li>
+            <li class="menu__item"><a class="menu__link" href="Nosotros.html">Nosotros</a></li>
+            <li class="menu__item"><a class="menu__link" href="blog.html">blog</a></li>
+            <li class="menu__item"><a class="menu__link" href="contacto.html">contacto</a></li>
+          </ul>
+        </nav>
+    </header>
+    <div class="contenedor">
+        <section class="grupo no-banner">
+          <div class="contenedor-formulario">
+            <h2 class="formulario__titulo">CONTÁCTENOS</h2>
+                <form action="enviar.php" method="POST" class="formulario">
+                    <input type="text" class="nombre" id="nombre" placeholder="Nombre"  required value=""><label for="Nombre"></label>
+                    <input type="email" class="correo" id="correo" placeholder="Correo" required value=""><label for="Correo" ></label>
+                    <input type="number" class="telefono" id="telefono" placeholder="Telefono" required value=""><label for="Telefono"></label>
+                    <input type="text" class="motivo"  id="motivo" placeholder="Motivo" required value=""><label for="Motivo" ></label>
+                    <input type="text" class="mensaje" id="mensaje" placeholder="Mensaje" required value=""><label for="Mensaje"></label>
+                    
+                    <input class="boton__form" type="submit" value="Enviar" name="submit">
+
+                </form>
+          </div>
+          <aside class="sidebar" id="sidebar"> 
+                <p>Ponte en contacto con nosotros a través de este formulario.</p>
+                <p>Si tienes dudas o consultas tambien puedes escribirme a mi facebook personal: <a href="https://www.facebook.com/StuwarGironGarcia" target="_blank">Facebook</a> allí podre resolver las dudas que tengas.</p><img src="img/silber/imag19.png" alt="WolvesSupreme">        
+          </aside> 
+        </section>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+            
+            ga('create', 'UA-61944772-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+        <script src="js/menu.js"></script>
+        <script src="js/jquery.js"></script>
+    </div>
+   
+    <script src="js/validar-from.js"></script>
+</body>
+</html>
