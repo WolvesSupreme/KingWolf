@@ -21,7 +21,7 @@ section, article {
 label, input, textarea {
   display: block; }
 h1, h2, h3, h4 {
-  color: crimson;
+  color: black;
   font-family: "Titillium Web", sans-serif;
   letter-spacing: -.5px; }
 main {
@@ -46,22 +46,30 @@ main {
   display: none;
   float: left;
   margin: 10px 0;
-  font-size: 2em; }
-  .titulo-empresa .contenedor {
-    display: table; }
-  @media screen and (min-width: 320px) {
-    .titulo-empresa {
-      display: block; } }
+  font-size: 2em; 
+}
+.titulo-empresa .contenedor {
+  display: table; 
+}
+
+@media screen and (min-width: 320px) {
+  .titulo-empresa {
+    display: block; 
+  } 
+  }
 #btn-menu {
   position: absolute;
   right: 4px;
   top: 15px;
   font-size: 30px;
   cursor: pointer;
-  color: crimson; }
-  @media screen and (min-width: 1024px) {
-    #btn-menu {
-      display: none; } }
+  color: aqua; 
+}
+@media screen and (min-width: 1024px) {
+  #btn-menu {
+    display: none; 
+  } 
+}
 .menu {
   width: 100%;
   background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(47%, #f6f6f6), to(gainsboro));
@@ -89,18 +97,19 @@ main {
   padding: 0;
 }
 @media screen and (min-width: 1024px) {
-    .menu ul {
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex; }
+  .menu ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; 
+  }
 }
 .menu__link {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  color: crimson;
+  color: black;
   text-decoration: none;
   padding: 15px 20px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
@@ -116,10 +125,10 @@ main {
     background: rgba(0, 0, 0, 0.1); 
 }
 .menu__link:hover.select {
-    background: rgba(220, 20, 60, 0.9); 
+    background: rgba(136, 77, 77, 0.1); 
 }
 .select {
-  background: rgba(220, 20, 60, 0.9);
+  background: rgba(0, 0, 0, 0.1);
   color: white; 
 }
 .mostrar {
@@ -181,7 +190,7 @@ main {
 }
 @media screen and (min-width: 768px) {
   .slider__contenido__titulo {
-      font-size: 2.5em; 
+    font-size: 2.5em; 
   } 
 }
 .slider__contenido__texto {
@@ -296,7 +305,7 @@ main {
   width: 100%;
   text-transform: uppercase;
   margin: 5px 0;
-  color: crimson; 
+  color: black; 
 }
 @media screen and (min-width: 480px) {
   .main-footer__titulo {
